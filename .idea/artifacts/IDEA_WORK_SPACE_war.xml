@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="IDEA-WORK-SPACE:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>IDEA-WORK-SPACE</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pms-portal-web.war">
+      <element id="artifact" artifact-name="IDEA-WORK-SPACE:war exploded" />
+    </root>
+  </artifact>
+</component>
